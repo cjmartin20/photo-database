@@ -1,0 +1,16 @@
+
+-script to sort media files by existence of date taken metadata
+	-move videos to separate location
+	if file does have date
+		rename files according to date YYMMDD_CJM
+			copy must resolve conflicts
+	else
+		move to another folder for further processing
+-create a database to hold the pictures
+	-fields
+		tags, date, archive type(display, non-public, hidden)
+-integrate database into
+	search function
+		by date range
+		by keywords (tags)
+	sort function
